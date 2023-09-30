@@ -53,6 +53,41 @@ const WhatGPT3 = () => (
         title="Creativity and Art"
         text="Unleash your creativity with GPT-3. It can help artists generate ideas, compose music, and even assist in creating visual artwork by generating descriptions."
       />
+      {/* Additional Elements */}
+      <div className="gpt3__whatgpt3-pricing">
+        <h2>Pricing</h2>
+        {/* Add an interactive pricing table here */}
+      </div>
+
+      <div className="gpt3__whatgpt3-dashboard">
+        <h2>User Dashboard</h2>
+        {/* Display a user dashboard with account information and usage statistics */}
+      </div>
+
+      <div className="gpt3__whatgpt3-tutorials">
+        <h2>Video Tutorials</h2>
+        {/* Embed video tutorials demonstrating GPT-3 use cases */}
+      </div>
+
+      <div className="gpt3__whatgpt3-docs">
+        <h2>API Documentation</h2>
+        {/* Provide links to comprehensive API documentation */}
+      </div>
+
+      <div className="gpt3__whatgpt3-stats">
+        <h2>Real-time Stats</h2>
+        {/* Display real-time statistics on the usage and impact of GPT-3 */}
+      </div>
+
+      <div className="gpt3__whatgpt3-support">
+        <h2>User Support Center</h2>
+        {/* Provide links to a support center with FAQs, contact options, and troubleshooting guides */}
+      </div>
+
+      <div className="gpt3__whatgpt3-reviews">
+        <h2>Customer Reviews</h2>
+        {/* Create a carousel of customer reviews and testimonials */}
+      </div>
     </div>
   </div>
 );
